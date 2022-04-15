@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Cacukadora IMC</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body class="background-purple">
+<div >
+    <div>
+        <div >
+             <div class="letter">
+                 <div class="modal-header">
+                    <span class="">Calculadora IMC</span>
+                     <span class="close-button"></span>
+                 </div>                
+                 <div>
+                    <div class="form-content">
+                        <div class="error-icon" id="x-altura" >x</div>
+                        <input type="number" id="altura" name="altura" placeholder="altura">
+                    </div>
+                    <div class="form-content">
+                        <div class="error-icon" id="x-peso" >x</div>
+                        <input type="number" id="peso" name="peso" placeholder="peso" >
+                    </div>
+                    <p id="result"></p>
+                 <div class="actions">
+                  <button onclick="calcular()">
+                     calcular IMC
+                     </button>
+                 </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+</div>
+</body>
+<script lang="text/javascript" src="./index.js"></script>
+</html>
