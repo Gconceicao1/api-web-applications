@@ -7,3 +7,8 @@ Calculadora IMC link: https://gconceicao1.github.io/api-web-applications/a1/imc/
 ![image](https://user-images.githubusercontent.com/51430639/163607355-e5d7863c-0529-4e2b-83af-4b82e99a9ac7.png)
 
 
+## Atividade 02 - Builder
+a2/index.js
+
+
+
